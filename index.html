@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Snake Game</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      canvas {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid black;
+      }
+
+      .btn {
+        width: 200px;
+        height: 70px;
+        font-size: 2rem;
+        margin-top: 5rem;
+        opacity: 0.8;
+        transition: all 0.3s ease-in-out;
+        border: none;
+      }
+
+      .btn:hover {
+        cursor: pointer;
+        opacity: 1;
+      }
+
+      .restart {
+        background: rgb(70, 100, 40);
+      }
+    </style>
+  </head>
+
+  <h1 style="font-size:50px;font-family:arial;margin-top:5rem">
+    Created by Daniel Łagowski
+  </h1>
+
+  <canvas id="snake" width="608" height="608"></canvas>
+
+  <button class="btn restart">Restart</button>
+
+  <script src="snake.js"></script>
+</html>
