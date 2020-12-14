@@ -110,7 +110,7 @@ function draw() {
     down.play();
   }
 
-  //if the snake eats the foot
+  //if the snake eats the food
   if (snakeX == food.x && snakeY == food.y) {
     score++;
     eat.play();
