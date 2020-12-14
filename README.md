@@ -5,3 +5,7 @@
 
 
 <b>There is no mobile support </b>
+
+
+
+[Live version](https://dl-snake-game.netlify.app/)
